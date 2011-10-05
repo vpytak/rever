@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <Button
+        android:id="@+id/btn_resume"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="Resume Game"
+    />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+    />
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="Exit"
+    />
+</LinearLayout>
