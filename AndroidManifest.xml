@@ -6,13 +6,16 @@
     <uses-sdk android:minSdkVersion="7" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name="GameActivity"
+        <activity android:name=".game.GameActivity"
                   android:label="@string/app_name">
+        </activity>
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="LevelsActivity"></activity>
 
     </application>
 </manifest>

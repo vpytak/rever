@@ -14,18 +14,21 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int btn_exit=0x7f070004;
+        public static final int btn_exit=0x7f070005;
         public static final int btn_gopuzzle=0x7f070001;
-        public static final int btn_resume=0x7f070002;
-        public static final int btn_start=0x7f070003;
+        public static final int btn_resume=0x7f070003;
+        public static final int btn_start=0x7f070004;
         public static final int game_view=0x7f070000;
-        public static final int mn_menu=0x7f070007;
-        public static final int mn_restart=0x7f070006;
-        public static final int mn_resume=0x7f070005;
+        public static final int label=0x7f070002;
+        public static final int mn_menu=0x7f070008;
+        public static final int mn_restart=0x7f070007;
+        public static final int mn_resume=0x7f070006;
     }
     public static final class layout {
         public static final int game=0x7f030000;
-        public static final int main=0x7f030001;
+        public static final int level_row=0x7f030001;
+        public static final int levels=0x7f030002;
+        public static final int main=0x7f030003;
     }
     public static final class menu {
         public static final int game_menu=0x7f060000;
